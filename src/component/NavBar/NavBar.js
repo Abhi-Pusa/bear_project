@@ -16,7 +16,7 @@ class NavBar extends Component{
         return(
             <div>
                 <ul>
-                    <li onClick={()=>this.onClickHandler(1)} className={this.state.active == 1?'active':''}><Link to="/">BearList</Link></li>
+                    <li onClick={()=>this.onClickHandler(1)} className={this.state.active == 1?'active':''}><Link to="/">BeerList</Link></li>
                     <li onClick={()=>this.onClickHandler(2)} className={this.state.active == 2?'active':''}><Link to="/favlist">Favorite List</Link></li>
                 </ul>
             </div>
