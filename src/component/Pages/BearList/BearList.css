@@ -5,7 +5,9 @@
 }
 .catalogue-wrapper{
     width: 230px;
+    height: 350px;
     text-align: center;
+    position: relative;
     padding: 10px;
     margin: 10px;
     border-radius: 3px;
@@ -17,10 +19,17 @@
     font-weight: 550;
     line-height: 20px;
     font-family: serif;
+    position: absolute;
+    top: 250px;
+    text-align: left;
 }
 .icon-container{
     display: flex;
+    position: absolute;
+    bottom: 25px;
+    right: 15px;
 }
 .icon-btn{
-    flex:1
+    flex:1;
+    margin-right: 7px;
 }
